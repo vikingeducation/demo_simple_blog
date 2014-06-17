@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h4>
+      By <%= post.author %>
+    </h4>
+    <h5>
+      Posted on <%= post.created_at.strftime("%b %d, %Y") %>
+    </h5>
+    <p>
+      <%= post.content %>
+    </p>
+  </div>
+</div>
