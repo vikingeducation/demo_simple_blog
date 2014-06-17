@@ -1,0 +1,10 @@
+<% unless comment.new_record? %>
+  <div class="comment">
+    <p>
+      <%= comment.content %>
+    </p>
+    <p class="comment-author">
+      -- <%= comment.author %>
+    </p>
+  </div>
+<% end %>

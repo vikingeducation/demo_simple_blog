@@ -9,5 +9,15 @@
     <p>
       <%= post.content %>
     </p>
+    <% unless post.comments.empty? %>
+      <h5>
+        Comments
+      </h5>
+        <%= render post.comments %>     
+    <% end %>
+    
+    <% if @comment.nil? %>
+      <%= link_to "Leave a comment!", new_post_comment_path(post), :class => "leave-comment" %>
+    <% end %>
   </div>
 </div>

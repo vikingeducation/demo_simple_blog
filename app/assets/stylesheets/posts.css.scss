@@ -14,10 +14,23 @@
     p{
       color: #666;
     }
+    a.leave-comment{
+      text-align: right;
+      display: block;
+    }
+  }
+  .home-link{
+    text-align: center;
   }
 
   .post-form{
     margin: 15px 0;
+  }
+  .comment{
+    .comment-author{
+      font-style: italic;
+      text-align: right;
+    }
   }
 
 }

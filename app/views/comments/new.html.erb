@@ -1,0 +1,23 @@
+<div class="row posts">
+  
+  <div class="col-sm-5 col-sm-offset-2">
+    <h3>
+      Your Selected Post
+    </h3>
+    <%= render @post %>
+    <div class="home-link">
+      <%= link_to "<< Go back to home page", root_url %>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-sm-offset-1">
+    <h3>
+      Create a Comment
+    </h3>
+    <div class="col-sm-12">
+      <%= render :partial => "new_comment_form", 
+            :locals => { :comment => @comment } %>
+    </div>
+  </div>
+
+</div>

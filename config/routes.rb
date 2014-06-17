@@ -1,9 +1,12 @@
 SimpleBlog::Application.routes.draw do
   
-
   root 'posts#index'
 
-  resources :posts, :only => [:index, :create]
+  resources :posts, :only => [:index, :create] do
+    resources :comments, :only => [:new, :create]
+  end
+
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
