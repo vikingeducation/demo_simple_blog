@@ -1,12 +1,20 @@
 <div class="row posts">
-  <div class="col-sm-6 col-sm-offset-1">
+  
+  <div class="col-sm-5 col-sm-offset-2">
     <h3>
       Latest Posts
     </h3>
     <%= render @posts %>
   </div>
-  <div class="col-sm-4">
 
+  <div class="col-sm-3 col-sm-offset-1">
+    <h3>
+      Create a Post
+    </h3>
+    <div class="col-sm-12">
+      <%= render :partial => "new_post_form", 
+            :locals => { :post => @post } %>
+    </div>
   </div>
 
 </div>

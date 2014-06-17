@@ -30,6 +30,11 @@ gem 'jbuilder', '~> 1.2'
 # Bootstrap!
 gem 'bootstrap-sass', '~> 3.1.1'
 
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

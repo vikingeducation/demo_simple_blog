@@ -1,0 +1,19 @@
+
+
+<%= form_for post, 
+    :html => { :class => "form-horizontal post-form" } do |f| %>
+  <div class="form-group">
+    <%= f.label :author, "Your Name" %>
+    <%= f.text_field :author, :class => "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :content, "Your Post" %>
+    <%= f.text_area :content, :rows => 6, :class => "form-control"  %>
+  </div>
+
+  <div class="form-group">
+    <%= f.submit "Create Post", :class => "btn btn-primary form-control" %>
+  </div>
+<% end %>
+
