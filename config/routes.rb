@@ -1,4 +1,12 @@
 SimpleBlog::Application.routes.draw do
+  
+
+  root 'posts#index'
+
+  get "posts/create"
+  get "posts/index"
+  get "create/index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
