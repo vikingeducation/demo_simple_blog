@@ -1,28 +1,3 @@
-== README
+# Demo: SimpleBlog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This is the code base for our demo app "SimpleBlog".  It is designed to help show a full end-to-end developer's workflow.  See the video as part of our prep work at [vikingcodeschool.com](http://vikingcodeschool.com).
