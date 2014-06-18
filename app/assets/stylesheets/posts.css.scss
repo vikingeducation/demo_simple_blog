@@ -18,6 +18,10 @@
       text-align: right;
       display: block;
     }
+    h5.comments-head{
+      font-weight: bold;
+      text-decoration: underline;
+    }
   }
   .home-link{
     text-align: center;
@@ -25,6 +29,10 @@
 
   .post-form{
     margin: 15px 0;
+  }
+  .comments{
+    margin-left: 20px;
+    margin-top: 20px;
   }
   .comment{
     .comment-author{
